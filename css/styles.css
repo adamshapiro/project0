@@ -1,0 +1,23 @@
+table th, table td {
+  padding: 5px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  table .table-image {
+    display: none;
+  }
+}
+table td {
+  font-size: 14px;
+}
+table th {
+  font-size: 18px;
+  font-weight: bold;
+}
+table img {
+  width: 300px;
+}
+
+/*# sourceMappingURL=styles.css.map */

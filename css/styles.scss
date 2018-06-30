@@ -1,0 +1,28 @@
+%tableCell {
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+    .table-image {
+        @media (max-width: 768px) {
+            display: none
+        }
+    }
+
+    td {
+        @extend %tableCell;
+        font-size: 14px;
+    }
+
+    th {
+        @extend %tableCell;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    img {
+        width: 300px;
+    }
+}
