@@ -13,6 +13,18 @@ $coffee: #6F4E37;
     margin: 10px;
 }
 
+.desc {
+    background-color: $coffee;
+    padding: 5px 10% 15px 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 25%;
+
+    p {
+        color: white;
+    }
+}
+
 table {
     margin-left: 15px;
 
@@ -36,5 +48,17 @@ table {
 
     img {
         width: 300px;
+    }
+}
+
+.container {
+    .row:first-child {
+        font-weight: bold;
+        font-size: 18px;
+        color: $coffee;
+    }
+
+    > div {
+        margin: 1%;
     }
 }
