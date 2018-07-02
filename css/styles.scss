@@ -4,7 +4,19 @@
     text-align: center;
 }
 
+$coffee: #6F4E37;
+
+#title {
+    color: $coffee;
+    text-align: center;
+    font-size: 48px;
+    margin: 10px;
+}
+
 table {
+    margin-left: 15px;
+
+    /* don't display the first column of the table on smaller screens */
     .table-image {
         @media (max-width: 768px) {
             display: none
