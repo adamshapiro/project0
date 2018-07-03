@@ -4,13 +4,16 @@
     text-align: center;
 }
 
-$coffee: #6F4E37;
+$coffee: #6F4E37; /* the universal standard "coffee" color */
 
+/* standardize the title of each page */
 #title {
     color: $coffee;
     text-align: center;
     font-size: 48px;
     margin: 10px;
+    font-family: Garamond;
+    font-weight: bold;
 }
 
 .desc {
@@ -52,12 +55,14 @@ table {
 }
 
 .container {
+    /* adjust the header for the glossary */
     .row:first-child {
         font-weight: bold;
         font-size: 18px;
         color: $coffee;
     }
 
+    /* add some spacing between the rows */
     > div {
         margin: 1%;
     }
